@@ -36,7 +36,7 @@ const Footer = () => {
               className={`${imageBaseClasses} ${isMobile ? "scale-90" : "scale-60"}  `}
             />
           </div>
-          <div className={`${isMobile ? "flex space-x-4 mt-5 translate-x-5  min-w-max" : "flex space-x-10 mt-5 w-full "}`}>
+          <div className={`${isMobile ? "flex space-x-4 mt-5 translate-x-4  min-w-max" : "flex space-x-10 mt-5 w-full "}`}>
             <button
               className={`${isMobile ? "w-14 h-8 text-[0.6rem] " : "w-52 h-16 "} bg-white text-black rounded-lg font-bold px-2
               `}>
