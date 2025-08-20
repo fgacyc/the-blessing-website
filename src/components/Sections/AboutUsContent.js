@@ -557,6 +557,9 @@ const AboutUsContent = () => {
           </div>
           <div className="flex justify-center  mt-10">
             <button
+              onClick={() =>
+                window.open("https://docs.google.com/forms/d/e/1FAIpQLSfP7juQ2s9_cftvJo3BRDEqSDSrU9wpyayteKl1Jr1vTS_wkQ/viewform", "_blank")
+              }
               className={`${
                 isMobile ? "w-full" : "translate-x-5"
               } bg-amber-200 text-black text-lg font-black cursor-pointer py-4 px-20 rounded-md hover:bg-amber-500 transition group`}>
