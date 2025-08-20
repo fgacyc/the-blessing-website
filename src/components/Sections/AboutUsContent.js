@@ -159,7 +159,7 @@ const AboutUsContent = () => {
           animate={vmaView ? { opacity: 1, scale: 1 } : {}}
           transition={{ type: "spring", duration: 0.6, ease: "easeOut" }}
           className="flex flex-col justify-center  items-center">
-          <img src="/aboutUs/aboutUs-vision.png" alt="mission" className={`${isMobile ? "w-1/2 h-5/6" : "w-3/4 h-3/4"} `} />
+          <img src="/aboutUs/aboutUs-vision.png" alt="mission" className={`${isMobile ? "w-1/2 h-5/6" : "w-72 h-42"} `} />
 
           <h2 className={`text-black font-bold text-center my-6 text-[1.1rem]`} style={{ letterSpacing: "0.2rem" }}>
             {" "}
