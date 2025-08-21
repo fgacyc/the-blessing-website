@@ -62,10 +62,7 @@ const Footer = () => {
               } bg-white text-black rounded-lg font-bold px-2
               `}
             >
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfP7juQ2s9_cftvJo3BRDEqSDSrU9wpyayteKl1Jr1vTS_wkQ/viewform"
-                className=""
-              >
+              <a href="/aboutTheBlessing" className="">
                 {" "}
                 关于我们{" "}
               </a>
@@ -77,10 +74,7 @@ const Footer = () => {
               `}
             >
               {" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSfP7juQ2s9_cftvJo3BRDEqSDSrU9wpyayteKl1Jr1vTS_wkQ/viewform"
-                className=""
-              >
+              <a href="/aboutTheBlessing" className="">
                 {" "}
                 Vision{" "}
               </a>
@@ -92,10 +86,7 @@ const Footer = () => {
               `}
             >
               {" "}
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSfP7juQ2s9_cftvJo3BRDEqSDSrU9wpyayteKl1Jr1vTS_wkQ/viewform">
-                {" "}
-                加入聚点{" "}
-              </a>
+              <a href="/theBlessingLocation"> 加入聚点 </a>
             </button>
             <button
               className={`${
