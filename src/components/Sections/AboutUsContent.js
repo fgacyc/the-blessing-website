@@ -755,7 +755,7 @@ const AboutUsContent = () => {
               }   font-bold text-black mt-2`}
             >
               {" "}
-              the Blessing Muar 正式启动 <br />
+              The Blessing Muar 正式启动 <br />
               在更地广人稀的地区建立灯塔{" "}
             </h3>
           </div>
